@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:AbsoluteLayoutSample" 
+             x:Class="AbsoluteLayoutSample.AbsoluteLayoutSamplePage">
+    
+    <AbsoluteLayout Padding="20"  VerticalOptions="CenterAndExpand">
+         <BoxView  AbsoluteLayout.LayoutBounds="0,40,1,1" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" BackgroundColor="DarkGray"/>
+         <BoxView  AbsoluteLayout.LayoutBounds="0,50,1,1" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" BackgroundColor="DarkGray"/>
+         <BoxView  AbsoluteLayout.LayoutBounds="0,60,1,1" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" BackgroundColor="DarkGray"/>
+         <BoxView  AbsoluteLayout.LayoutBounds="0,70,1,1" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" BackgroundColor="DarkGray"/>
+         <BoxView  AbsoluteLayout.LayoutBounds="0,80,1,1" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" BackgroundColor="DarkGray"/>
+         <Image Source="solClave" Aspect="AspectFit" AbsoluteLayout.LayoutBounds="0,30,60,60" AbsoluteLayout.LayoutFlags="XProportional"/>
+         <Label Text="4&#10;4" AbsoluteLayout.LayoutBounds="50,40,50,50" />
+         <BoxView AbsoluteLayout.LayoutBounds="60,97,20,2" BackgroundColor="DarkGray"/>
+         <Image Source="note" Aspect="AspectFit" AbsoluteLayout.LayoutBounds="60,80,20,20" x:Name="C"/>
+         <Image Source="note" Aspect="AspectFit" AbsoluteLayout.LayoutBounds="80,70,20,20" x:Name="D"/>
+         <Image Source="note" Aspect="AspectFit" AbsoluteLayout.LayoutBounds="100,65,20,20" x:Name="E"/>
+         <Image Source="note" Aspect="AspectFit" AbsoluteLayout.LayoutBounds="120,60,20,20" x:Name="F"/>
+         <Image Source="note" Aspect="AspectFit" AbsoluteLayout.LayoutBounds="140,55,20,20" x:Name="G"/>
+         <Image Source="note" Aspect="AspectFit" AbsoluteLayout.LayoutBounds="160,50,20,20" x:Name="A"/>
+         <Image Source="note" Aspect="AspectFit" AbsoluteLayout.LayoutBounds="180,45,20,20" x:Name="B"/>
+         <Image Source="note" Aspect="AspectFit" AbsoluteLayout.LayoutBounds="200,50,20,20" x:Name="A2"/>
+         <Image Source="note" Aspect="AspectFit" AbsoluteLayout.LayoutBounds="220,55,20,20" x:Name="G2"/>
+         <Image Source="note" Aspect="AspectFit" AbsoluteLayout.LayoutBounds="240,60,20,20" x:Name="F2"/>
+         <Image Source="note" Aspect="AspectFit" AbsoluteLayout.LayoutBounds="260,65,20,20" x:Name="E2"/>
+         <Image Source="note" Aspect="AspectFit" AbsoluteLayout.LayoutBounds="280,70,20,20" x:Name="D2"/>
+         <BoxView AbsoluteLayout.LayoutBounds="300,97,20,2" BackgroundColor="DarkGray"/>
+         <Image Source="note" Aspect="AspectFit" AbsoluteLayout.LayoutBounds="300,80,20,20" x:Name="C2"/>
+     </AbsoluteLayout>
+</ContentPage>
